@@ -2,11 +2,11 @@
 
 module.exports = (function (ridingsFake) {
   
-  var ridingsList = function myFunction() {
+  var ridingsList = function () {
     return ridingsFake;
   };
 
-  var ridingsReadOne = function myFunction(index) {
+  var ridingsReadOne = function (index) {
     return ridingsFake[index];
   };
   

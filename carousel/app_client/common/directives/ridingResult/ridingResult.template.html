@@ -11,7 +11,7 @@
       </tr>
     </thead>
     <tbody>
-      <tr ng-repeat="result in local.riding.results" >
+      <tr ng-repeat="result in local.riding.results | orderBy: 'partyId'" >
         <td>{{result.name}}</td>
         <td>{{result.partyId}}</td>
         <td>{{result.votes}}</td>

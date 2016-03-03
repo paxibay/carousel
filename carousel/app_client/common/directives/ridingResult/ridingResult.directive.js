@@ -12,7 +12,6 @@
       },
       link: function (scope, element, attrs) {
         var data = scope.local.riding.results;
-        
         var voteTotal = scope.local.voteTotal;
 
         if (angular.isArray(data)) {
@@ -79,6 +78,7 @@
           }
         }
       }
+      //templateUrl: '/common/directives/ridingResult/ridingResult.template.html'
     };
   }
 
