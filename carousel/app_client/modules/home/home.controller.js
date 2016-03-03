@@ -8,7 +8,7 @@
     var vm = this;
     vm.message = "Checking ridings";
     vm.pageHeader = {
-      title: 'Vidings',
+      title: 'Ridings',
       strapline: 'This page only shows the list of vidings!'
     };
 
