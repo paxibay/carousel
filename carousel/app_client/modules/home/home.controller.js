@@ -9,7 +9,7 @@
     vm.message = "Checking ridings";
     vm.pageHeader = {
       title: 'Ridings',
-      strapline: 'This page only shows the list of vidings!'
+      strapline: 'This page only shows the list of ridings!'
     };
 
     vm.init = init;
