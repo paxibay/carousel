@@ -49,7 +49,7 @@
     <Folder Include="app_client\modules\home\" />
     <Folder Include="app_client\modules\ridingDetail\" />
     <Folder Include="app_server\" />
-    <Folder Include="bin\" />
+    <Folder Include="boot\" />
     <Folder Include="public\" />
     <Folder Include="public\angular\" />
     <Folder Include="public\bootstrap\" />
@@ -92,7 +92,7 @@
     <Content Include="app_client\default.html" />
     <Content Include="app_client\modules\home\home.view.html" />
     <Content Include="app_client\modules\ridingDetail\ridingDetail.view.html" />
-    <Content Include="bin\www" />
+    <Content Include="boot\www" />
     <Content Include="nodemon.json" />
     <Content Include="package.json" />
     <Content Include="Procfile" />
