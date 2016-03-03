@@ -31,6 +31,16 @@
           listElem.append(itemElement);
           itemElement = angular.element("<th>").text("Percentage").addClass("tdWidth");
           listElem.append(itemElement);
+          
+          function compare(a, b) {
+            if (a.partyId < b.partyId)
+              return -1;
+            else if (a.partyId > b.partyId)
+              return 1;
+            else
+              return 0;
+          }
+          data.sort(compare);
 
           for (var i = 0; i < data.length; i++) {
             var propertyExpression = data[i].votes / voteTotal * 100 + "| number:2 | number";
